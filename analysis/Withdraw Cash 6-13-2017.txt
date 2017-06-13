@@ -1,0 +1,10 @@
+title Withdraw Cash 6/13/2017
+actor User
+
+==Greeting, get card info, PIN==
+User -> ATM: Enter PIN
+ATM -> Bank: Validate user, get account info
+
+==Ask amount, Dispense cash==
+ATM -> User: Display message -Take cash
+ATM -> Bank: Debit account and get receipt info
