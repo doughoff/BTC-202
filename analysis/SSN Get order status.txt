@@ -1,0 +1,24 @@
+# httpsequencediagram.org
+
+title Get order status
+actor Customer
+participant Firewall
+participant Web server
+
+# show calls as pass-throughs-forwards
+linear
+
+# process flow
+Customer - Firewall Get order status
+Firewall - Web server Forward request
+Web server - Database server Lookup user data
+Web server - Database server Lookup order
+
+# not a system to system call
+Web server - Web server Build page
+
+Web server -- Firewall Send status web page
+Firewall--Customer Forward response
+
+# turn off pass-throughs
+linear off
