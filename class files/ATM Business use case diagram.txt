@@ -1,7 +1,0 @@
-# https://yuml.me/diagram/scruffy/usecase/draw
-(note: Partial&nbsp;business&nbsp;use&nbsp;cases{bg:blue})
-[Operator]-Reload machine cash
-[Operator]-Reload receipt paper
-[Operator]-Retrieve cards
-[Operator]-Reset machine
-[Operator]-Do routine maintenance

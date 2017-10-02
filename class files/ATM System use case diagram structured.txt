@@ -1,8 +1,0 @@
-# https://yuml.me/diagram/scruffy/usecase/draw
-(note: System&nbsp;use&nbsp;cases{bg:blue})
-Withdraw Cash^Do Transaction
-Deposit funds^Do Transaction
-Transfer funds^Do Transaction
-Check balance^Do Transaction
-[Customer]-Do Transaction
-
