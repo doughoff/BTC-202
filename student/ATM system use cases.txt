@@ -1,0 +1,6 @@
+# https://yuml.me/diagram/scruffy/usecase/draw
+[Customer]-(Withdraw cash)
+[Customer]-(Deposit funds)
+[Customer]-(Transfer funds)
+[Customer]-(Request balance)
+[System]-(Display idle screen)
