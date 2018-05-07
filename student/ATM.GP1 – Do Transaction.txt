@@ -1,4 +1,0 @@
-(Withdraw Cash)^(Do Transaction),
-(Transfer Funds)^(Do Transaction),
-(Deposit Funds)^(Do Transaction),
-(Request Balance)^(Do Transaction)

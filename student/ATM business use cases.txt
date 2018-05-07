@@ -1,7 +1,0 @@
-# https://yuml.me/diagram/scruffy/usecase/draw
-[Maintenance]-(Fill cash),
-[Maintenance]-(Reload receipt paper),
-[Maintenance]-(Remove deposits),
-[Maintenance]-(Stock envelopes),
-[Maintenance]-(Do system preventative maintenance),
-[Maintenance]-(Do ATM session)
