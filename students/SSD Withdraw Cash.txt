@@ -1,0 +1,8 @@
+title Withdraw Cash
+
+User -> ATM : Input PIN
+ATM -> Bank: Validate user
+Bank -> Customer server: Validate user
+// more steps here
+User -> ATM : Input withdrawal amount
+ATM -> Bank: Process withdrawal
