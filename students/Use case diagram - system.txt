@@ -1,9 +1,0 @@
-https://yuml.me/diagram/usecase/draw
-
-(note:System use cases),
-[Customer]-(Withdraw Cash),
-[Customer]-(Deposit envelope),
-[Customer]-(Check Balance),
-[Customer]-(Transfer funds),
-[System]-(Comm. with bank computer),
-[System]-(Display prompt)
