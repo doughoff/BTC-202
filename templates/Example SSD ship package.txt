@@ -1,0 +1,18 @@
+// https://sequencediagram.com 
+title Pay for shipping package by credit card without account
+
+actor customer
+actor clerk
+
+customer<-clerk: greets customer
+customer->clerk: asks to ship package
+customer<-clerk: puts package on scale
+customer<-clerk: asks for shipping info
+clerk->POS: confirms shipping order
+POS->Counter rate system: get quote
+customer<-clerk: advises order total
+customer->clerk: confirms order
+customer->POS: inserts credit card
+POS->Accounting system: sends order
+Accounting system->Credit card processor: charges card
+customer<-clerk: hands receipt
