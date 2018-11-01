@@ -1,0 +1,8 @@
+title Withdraw Cash
+
+You->ATM:Insert card to receive cash
+ATM->Bank:Get account info
+Bank-->ATM: Approval granted 
+== Get withdraw info user ==
+ATM->Bank: Debit account
+ATM-->You: Receive 3 $20 bills and receipt and card returned
