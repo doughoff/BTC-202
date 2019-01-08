@@ -1,0 +1,12 @@
+title Withdraw Cash
+
+== Insert card...==
+ User->ATM: Enter PIN
+ ATM->Bank: Validate account
+ Bank-->ATM: Return account data
+ == Menu Stuff ==
+ User->ATM: Request withdrawal amount
+ ATM->Bank: Record withdrawal
+ Bank-->ATM: Valid
+
+
