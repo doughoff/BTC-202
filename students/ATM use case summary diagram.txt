@@ -1,0 +1,12 @@
+-- https://yuml.me/diagram/scruffy/usecase/draw
+
+[Customer]-(Deposit funds)
+[Customer]-(Withdraw cash)
+[Customer]-(Check balance)
+[Customer]- (Transfer funds)
+[ATM]-(Send alert for low cash)
+[Bank]-(Verify total cash on hand)
+[Bank]-(Reconcile ATM)
+[Operator]-(Remove deposits)
+[Operator]-(Stock cash)
+[Operator]-(Refill paper)
