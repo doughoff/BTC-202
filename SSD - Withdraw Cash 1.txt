@@ -1,0 +1,14 @@
+// https://sequencediagram.org/
+
+title Withdraw Cash
+note over User, ATM: Session started
+User->ATM:Enter PIN
+ATM->Bank: Validate PIN
+
+note over User, ATM: Withdraw cash menu
+User->ATM: Enter amount to withdraw
+ATM->Bank: Validate amount
+
+note over User, ATM: other actions
+ATM->ATM: dispense cash
+ATM->Bank: record transaction
