@@ -1,0 +1,6 @@
+// https://yuml.me/diagram/nofunky/usecase/draw
+
+[Customer]-(Deposit Funds),
+[Customer]-(Withdraw Cash),
+[Customer]-(Transfer Funds),
+[Customer]-(Request balance)
