@@ -1,0 +1,13 @@
+title Withdraw Cash
+
+==greet customer==
+
+user->ATM: enter PIN
+ATM->Bank: get account info
+
+==collect info==
+
+user->ATM: enter amount
+ATM->Bank: process transaction
+
+== finish session==
