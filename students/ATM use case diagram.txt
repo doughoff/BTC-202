@@ -6,3 +6,8 @@
 [Customer]- Transfer funds
 [ATM]- Send ad data
 [Bank] - Update ads
+
+[Operator] - Refill cash
+[Operator] - Update ATM
+[Operator] - Reload paper
+[Operator] - Clean ATM
