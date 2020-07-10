@@ -1,0 +1,17 @@
+# System use cases
+# https://yuml.me/diagram/usecase/draw
+
+[Client]-(Withdraw Cash)
+[Client]-(Deposit funds)
+[Client]-(Transfer funds)
+[Client]-(Request balance)
+[ATM]-(Go to idle screen)
+
+# Business use cases
+# https://yuml.me/diagram/usecase/draw
+
+[Bank]-(Update software)
+[ATM]-(Remove deposits)
+[ATM]-(Replace machine)
+[ATM]-(Replenish cash drawer)
+[ATM]-(Fix machine)
