@@ -1,0 +1,11 @@
+# https://yuml.me/diagram/usecase/draw
+
+[Customer]-(Check balance)
+[Customer]-(Withdraw cash)
+[Customer]-(Make deposit)
+[Customer]-(Transfer funds)
+[Customer]-(Make loan payment)
+[Operator]-(Check paper)
+[Operator]-(Check money)
+[Operator]-(Service display)
+[Operator]-(Replace envelopes)
