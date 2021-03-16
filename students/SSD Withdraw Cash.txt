@@ -1,0 +1,9 @@
+# https://sequencediagram.org/
+# March 16, 2021
+title Withdraw Cash
+
+note over User, ATM: session start
+ATM -> Bank: get account info (authorized)
+note over User, ATM: request withdrawal
+ATM -> Bank: record transaction
+note over User, ATM: end session
