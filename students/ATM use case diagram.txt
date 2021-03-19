@@ -1,0 +1,14 @@
+https://yuml.me/diagram/scruffy/class/draw
+March 19, 2021
+ATM use cases
+
+---------------------------- paste in below
+
+User - Deposit funds
+User - Transfer funds
+User - Check available balance
+User - Withdraw cash
+Maintenance - Refill cash 
+Maintenance - Update ads
+Maintenance - <Group> Repair machine
+ATM - Update software
